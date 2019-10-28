@@ -1,0 +1,24 @@
+.header {
+  &__navigation {
+    padding: 0.5em;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__link {
+    margin: 0 0.5em;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
